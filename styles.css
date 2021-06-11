@@ -1,0 +1,185 @@
+html {
+	
+	color: darkblue;
+	font-size: 15px;
+	
+}
+
+body{
+margin: 0px;
+}
+
+h1{
+	margin: 0px;
+}
+
+h2{
+	
+	text-align: center;
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h3{
+	font-family: 'Ubuntu', sans-serif;
+    vertical-align:middle;
+    display: block;
+}
+
+#banner {
+	height: 800px;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("imgs/banner1.png") ;
+	background-position: top;
+	background-size: cover;
+	transition-property: 1.8s;
+}
+.button1{
+	background-color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    top: 72%;
+    margin-left: 44%;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Ubuntu';
+    color: white; 
+}
+.text_banner{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.servicios{
+	display: block;
+	height: 400px;
+	transition: 3.0s;
+}
+
+#servtec {
+	background: white;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	display: block;
+	padding: 24px;	
+	margin: 25px ;	
+}
+
+#servtec img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 150px;
+	box-shadow: 0 0 16px rgba(0, 0, 25, 0.7) ;
+}	
+ #cameras {
+	background: white;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	padding: 24px;	
+	margin: 25px ;	
+}
+
+#cameras img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	object-position: bottom;
+	border-radius: 150px;
+	box-shadow: 0 0 16px rgba(0, 0, 25, 0.7) ;
+}	
+
+ #redes {
+	background: white;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	padding: 24px;	
+	margin: 25px ;	
+}
+
+#redes img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	object-position: bottom;
+	border-radius: 150px;
+	box-shadow: 0 0 16px rgba(0, 0, 25, 0.7) ;
+}	
+
+ #ventas {
+	background: white;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	padding: 24px;	
+	margin: 25px ;	
+}
+
+#ventas img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	object-position: bottom;
+	border-radius: 150px;
+	box-shadow: 0 0 16px rgba(0, 0, 25, 0.7) ;
+}	
+
+.servicios {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+#banner2 {
+	height: 800px;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url("imgs/banner2.jpeg") ;
+	background-position: top;
+	background-size: cover;
+}
+
+.text_banner2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	transition: 1.0s;
+}
+.button2{
+	background-color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    top: 72%;
+    margin-left: 46%;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Ubuntu';
+    color: white; 
+}
+
+.text_banner2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	transition: 1.0s;
+}
+
+#footer {
+	height: 150px;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	transition-property: 1.8s;
+}
+
