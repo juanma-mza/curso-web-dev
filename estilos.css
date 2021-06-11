@@ -1,0 +1,66 @@
+html {
+	
+	color: darkblue;
+	font-size: 15px;
+	
+}
+
+body{
+margin: 0px;
+
+
+
+}
+
+h1{
+	margin: 0px;
+}
+
+
+#banner {
+	height: 800px;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("imgs/banner1.png") ;
+	background-position: top;
+	background-size: cover;
+}
+.button1{
+	background-color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    top: 72%;
+    margin-left: 47%;
+    display: inline-block;
+    font-size: large;
+    font-family: 'Ubuntu';
+    color: white; 
+}
+.text_banner{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.cards div{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	
+}
+
+.cards-serv img {
+	width: 200px;
+	height: 200px;
+	padding-left: 10%;
+	object-fit: cover;
+	border-radius: 100px;
+}
+	
